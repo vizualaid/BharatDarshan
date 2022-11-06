@@ -13,6 +13,11 @@
   transition: .2s linear;
 }
 
+.log{
+  width: 30px;
+  height: 25px;
+}
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
