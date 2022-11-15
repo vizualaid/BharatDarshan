@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset ="utf-8">
+        <title>
+            QR generate
+        </title>
+        <link rel="stylesheet" href="styletick.css">
+        <link rel="stylesheet" href="css\style.css">
+        <meta name="viewport" content="width=Ddevice-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class = "wrapper">
+            <header>
+                <h2>YOUR DIGITAL TICKET</h2>
+                <p>Details of the Ticket booked</p>
+                <p>Date:</p>
+                <p>Time Slot:</p>
+                <p>Name: </p>
+            </header>
+            <br>
+              <div class= "qrcode" >
+                <img src="images/q.png" alt="qr-code">
+              </div>
+              <div class="form">
+                <h1>Site Name:</h1>
+                <button  onclick="alertcal()">Download</button>
+              </div>
+        </div>
+        <script>
+            function alertcal(){
+            alert("DownLoad Successfull");}
+        </script>
+    </body>
+ 
+    
+</html>
