@@ -211,7 +211,9 @@ section {
 
 .search-form form input::placeholder {
   color: #aaa;
+  
 }
+
 
 .search-form form label {
   font-size: 3rem;
@@ -277,6 +279,7 @@ section {
   font-size: 3rem;
   color: #10221b;
 }
+
 .category.box-container {
   display: -ms-grid;
   display: grid;
@@ -285,6 +288,7 @@ section {
   gap: 1.5rem;
   /* margin-bottom: 100px; */
 }
+
 .box2 {
   
   width:25%;
@@ -323,9 +327,9 @@ section {
 }
 
 .ch:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
+  -ms-transform: scale(0.9); /* IE 9 */
+  -webkit-transform: scale(0.8); /* Safari 3-8 */
+  transform: scale(0.8); 
 }
 
 /* .cch{
@@ -352,6 +356,7 @@ section {
 .category .box-container .box2 {
   text-align: center;
   padding: 1rem;
+  
 
 }
 
@@ -371,6 +376,7 @@ section {
   font-size: 1.5rem;
   color: #10221b;
   padding: 1rem 0;
+
   line-height: 2;
 }
 
@@ -402,12 +408,16 @@ section {
 }
 
 .about .content {
+
   -webkit-box-flex: 1;
       -ms-flex: 1 1 42rem;
           flex: 1 1 42rem;
 }
 
 .about .content h3 {
+  text-shadow: #000000;
+  box-shadow: #515151;
+  text-emphasis-color:#fff ;
   font-size: 3rem;
   color: #ffe034
 }
@@ -500,10 +510,10 @@ section {
 /* ............................................................................................. */
 
 
-:root{
+/* :root{
   --a:#000000;
   --light-yellow:#9b9b9b;
-}
+} */
 
 *{
   font-family: 'Nunito', sans-serif;
@@ -522,7 +532,7 @@ html{
 }
 
 body{
-  background:#f7f7f7;
+  background:#FFF;
 }
 
 section{
@@ -544,6 +554,7 @@ section{
 .btn:hover{
   background:var(--a);
   color:#fff;
+  background-color: #000000;
 }
 
 .heading{
@@ -1167,14 +1178,14 @@ ul, li {
 }
 
 
-body {
-	/* background: rgb(230, 229, 229);
-   */
+/* body {
+	background: rgb(230, 229, 229);
+  
 
-  /* background: url(Untitled-2.jpg) repeat; */
-  }
+  background: url(Untitled-2.jpg) repeat;
+  } */
 
-.main-nav {
+/* .main-nav { */
  /* width: 90%; 
 	max-width: 240px; 
 	margin:  auto; 
@@ -1183,7 +1194,7 @@ body {
   cursor: pointer; */
  
   
-}
+/* } */
 .main-nav ul {
 	position: absolute;
    
