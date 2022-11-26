@@ -268,7 +268,6 @@ header .icons #menu-bars{
 
 
 
-
 /* ................................................................................................. */
 
 
@@ -536,9 +535,9 @@ section {
   
   .f{
     display: inline-block;
-    border: 1px solid rgb(255, 255, 255);
-    padding: 1rem 1rem;
-    vertical-align: middle;}
+    
+    
+    }
   /* 
   .btn{
     margin-top: 1rem;
